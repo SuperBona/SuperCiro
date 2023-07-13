@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Ciro</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <!-- body onload="showAlert()" -->
+  <body>
+    <!-- Navbar -->
+    <nav id="nav" class="nav">
+      <div class="nav-center">
+        <div class="nav-header">
+          <h1 class="logo">Super<span>Ciro</span></h1>
+          <button type="button" id="nav-toggle" class="nav-icon nav-toggle">
+            <i class="fas fa-wine-bottle"></i>
+          </button>
+        </div>
+        <ul class="nav-links">
+          <li><a class="nav-link scroll-link" href="#home">home</a></li>
+          <li><a class="nav-link scroll-link" href="#about">about</a></li>
+          <li><a class="nav-link scroll-link" href="#pictures">pictures</a></li>
+          <li>
+            <a class="nav-link scroll-link" href="#story">Story</a>
+          </li>
+          <ul class="nav-icons">
+            <li class="nav-icon">
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li class="nav-icon">
+              <a href="https://www.instagram.com/nientedich3/" target="_blank"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </ul>
+        <button type="button" class="icon">
+          <i class="fas fa-wine-bottle"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero" id="home">
+      <div class="hero-center">
+        <h1 class="title1">get ready</h1>
+        <h2>to know</h2>
+        <h1 class="title2">the best</h1>
+        <span class="superhero">superhero</span>
+        <h2>in the world</h2>
+      </div>
+    </div>
+    <!-- section about -->
+    <section class="section about" id="about">
+      <div class="about-section">
+        <div class="section-title">
+          <h1><span>Ciro</span> the superhero</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="section-center about-center">
+          <div class="about-img">
+            <img src="./images/ciro.JPG" class="modal-btn" alt="ciro" />
+            <!-- <button type="button" class="img-button modal-btn">click</button> -->
+          </div>
+          <article class="about-info">
+            <p>
+              Meet the
+              <span style="font-style: italic">most powerful</span> person in
+              the world, the best:<br />
+              <span class="ciro" style="text-transform: uppercase">Ciro</span>
+              <br />There is no one like him in the whole world. You will soon
+              know more about his identity. <br />Keep reading.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- modal overlay -->
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <div>
+          <h3>Have a beer.</h3>
+          <h4>Drink a lot. You will have superpowers.</h4>
+          <h4>Like Ciro.</h4>
+          <img
+            src="https://em-content.zobj.net/source/skype/289/beer-mug_1f37a.png"
+            alt="beer"
+          />
+        </div>
+        <button type="button" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <!-- other info - line -->
+    <section class="section life">
+      <div class="section-title">
+        <h1>Who is Ciro</h1>
+        <div class="underline"></div>
+      </div>
+      <div class="section-center life-center">
+        <!-- single item -->
+        <article class="life-item">
+          <p class="scroll-reveal box left">
+            Ciro was born of two men, already bald and bearded. He feels like a
+            woman.
+          </p>
+          <span class="life-icon"><i class="fas fa-beer"></i></span>
+        </article>
+        <!-- single item -->
+        <article class="life-item">
+          <p class="scroll-reveal box right">
+            Ciro has only drunk beer since he was little; if he drinks anything
+            else, he dies. In fact, its secret lies precisely in the beer.
+          </p>
+          <span class="life-icon"><i class="fas fa-beer"></i></span>
+        </article>
+        <!-- single item -->
+        <article class="life-item">
+          <p class="scroll-reveal box left">
+            His secret identity has now been revealed. SuperCiro can no longer
+            hide.
+          </p>
+          <span class="life-icon"><i class="fas fa-beer"></i></span>
+        </article>
+      </div>
+    </section>
+    <!-- foto -->
+    <section class="section pictures" id="pictures">
+      <div class="pictures-center">
+        <div class="picture ciro1">
+          <p>He's a woman too.</p>
+          <img src="./images/ciro-donna.PNG" alt="ciro woman" />
+        </div>
+        <div class="picture ciro2">
+          <p>He has superpowers.</p>
+          <img src="./images/ciro-spiderman.PNG" alt="like spiderman" />
+        </div>
+        <div class="picture ciro3">
+          <p>Super fast; he can fly too.</p>
+          <img src="./images/ciro-posa.PNG" alt="super" />
+        </div>
+        <div class="picture ciro4">
+          <p>He's always drunk.</p>
+          <img src="./images/ciro-ubriaco.PNG" alt="drunk ciro" />
+        </div>
+      </div>
+      <div class="pictures-text">
+        <h3 id="h3-1">He saves the world everyday</h3>
+        <h3 id="h3-2">thanks to the</h3>
+        <div class="fireworks">
+          <img
+            id="fireworks1"
+            src="https://em-content.zobj.net/source/skype/289/fireworks_1f386.png"
+            alt="fireworks"
+          />
+          <h1>beer</h1>
+          <img
+            src="https://em-content.zobj.net/source/skype/289/fireworks_1f386.png"
+            alt="fireworks"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Video -->
+    <section class="section video">
+      <video class="video-container" loop>
+        <source type="video/mp4" src="./images/SUPER_CIRO.mp4" />
+      </video>
+      <div class="video-buttons">
+        <button class="switch-btn">
+          <span><i class="fas fa-play"></i></span>
+          <span><i class="fas fa-pause"></i></span>
+          <span class="switch"></span>
+        </button>
+        <input
+          type="range"
+          id="volumeslider"
+          min="0"
+          max="100"
+          value="100"
+          step="1"
+        />
+        <!-- <span id="curtimetext">00:00</span> / <span id="durtimetext">00:00</span> -->
+        <button id="mutebtn"><i class="fas fa-volume-down"></i></button>
+      </div>
+    </section>
+    <!-- ciro story -->
+    <section class="hisStory section" id="story">
+      <div class="section-center story-center">
+        <div class="section-title story-title">
+          <h1>His story</h1>
+          <div class="underline"></div>
+        </div>
+        <article class="first-p story">
+          <p>
+            Twelve years after he saved the Earth from an alien invasion, Ciro
+            has become a celebrity multimillionaire. On his way to the set of a
+            talk show, Ciro witnesses a news broadcast announcing that aliens
+            have returned. Unlike previous encounters, the aliens initially
+            appear peaceful and at first, seem to pose no harm to the humans of
+            Earth.
+          </p>
+          <!-- <div class="line-story"></div> -->
+        </article>
+        <article class="second-p story">
+          <p>
+            Ciro's talk show appearance is canceled to allow television stations
+            to cover the alien invasion, and Ciro retires to the "Ciro Cave",
+            his home. There, he receives a call from the president and General
+            Emanuele of the Earth Defense Force (EDF). The president orders Ciro
+            not to harm the invaders and adds that he is in diplomatic talks
+            with the alien overlord.
+          </p>
+          <div class="line-story"></div>
+        </article>
+        <article class="third-p story">
+          <p>
+            When Ciro is attacked by hostile aliens, he is forced to disobey the
+            president's orders and fight his way through the alien hordes. While
+            fighting through his casino, Ciro witnesses the aliens abducting
+            women, including his two pop star girlfriends. Emanuele tells him
+            that the women are being held in the Ciro Dome and that the aliens
+            have a vendetta to settle with Ciro. He also warns him that the
+            aliens are using Hoover Dam to power a wormhole so more aliens can
+            come through. Ciro travels to the Ciro Dome, using a wrecking ball
+            to damage the building to gain access. Inside, he finds swarms of
+            Octabrains and the missing women, who have been impregnated with
+            alien spawn. Ciro's girlfriends die after bearing alien babies,
+            infuriating Ciro. He finds the Alien Queen in control of the Ciro
+            Dome and kills her, but is wounded in the process and blacks out.
+          </p>
+          <!-- <div class="line-story"></div> -->
+        </article>
+        <article class="fourth-p story">
+          <p>
+            After regaining consciousness, Ciro fights Pigcops and aliens
+            through the Ciro Burger. He travels to the Hoover Dam in his monster
+            truck. After battling through the dam, he finds his old friend Luca,
+            mortally wounded. Luca tells Ciro that the reborn Cycloid Emperor is
+            at the dam and that the only way to shut down the portal is to
+            completely destroy it. Before dying, he gives Ciro his demolition
+            charges and wishes him luck. Ciro places the explosives and destroys
+            the dam, but the currents nearly drown him.
+          </p>
+          <div class="line-story"></div>
+        </article>
+        <article class="fifth-p story">
+          <p>
+            Ciro is revived by an EDF soldier and awakens to find the portal
+            gone. The president, who was also at the dam, rages at Ciro for
+            ruining his plans to work with the Cycloid Emperor. The president
+            was actually intending to have the aliens kill Ciro so he could
+            control the Earth with Cycloid Emperor. He has ordered a nuclear
+            strike at the site of the dam to wipe out the remaining aliens,
+            intending to leave Ciro there to die. The Cycloid Emperor emerges
+            and kills the president and his security detail; he intended to kill
+            the president after the deal. Ciro kills the Cycloid Emperor and
+            then he announces his intent to run for President of the United
+            States.
+          </p>
+          <!-- <div class="line-story"></div> -->
+        </article>
+      </div>
+    </section>
+    <!-- footer - o aggiungo altro prima -->
+    <footer>
+      <div class="bkwaves">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+          <div class="wave" id="wave5"></div>
+        </div>
+      </div>
+      <ul class="social-icon">
+        <li>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/nientedich3/" target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+        <!-- <li><a href="#"></a></li>
+        <li><a href="#"></a></li> -->
+      </ul>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        | All Rights Reserved
+      </p>
+    </footer>
+    <script src="./app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
